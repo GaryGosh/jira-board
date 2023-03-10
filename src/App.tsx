@@ -13,11 +13,12 @@ function App() {
         fontSize={{ base: '4xl', sm: '5xl', md: '6xl' }}
         fontWeight="bold"
         textAlign="center"
-        bgGradient="linear(to-l, #7928CA, #FF0080)"
+        // bgGradient="linear(to-l, #7928CA, #FF0080)"
+        backgroundImage="linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43)"
         bgClip="text"
         mt={4}
       >
-        Welcome to DnD Kanban
+        Program Planning - Jira Board
       </Heading>
       <DarkModeIconButton position="absolute" top={0} right={2} />
       <DndProvider backend={HTML5Backend}>
